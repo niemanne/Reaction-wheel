@@ -13,8 +13,13 @@ This is a personal aerospace engineering project to simulate ___ axis attitude c
 July-August 2025 (6 weeks, self-directed)
 
 Week 1: Design + research hardware (IMU, motors, microcontroller)
+
 Week 2: Build test rig + set up electronics
+
 Week 3: Program basic motor control + IMU data logging
+
 Week 4: Implement attitude control algorithm (PID control)
+
 Week 5: Tune system + make demo videos
+
 Week 6: Polish, document, review
