@@ -43,6 +43,39 @@ Hardware updates:
 Three possible design layouts were brainstormed (see `hardware/initial_sketch_7-9.jpg`). 
 - The leading candidate is a tripod style balance beam, which provides extra x/y axis support while isolating the z-axis for rotational testing and PID specialization
 
+## 7/10/2025 - intial design 
+What was done:
+- researched principles of PID
+
+Topics studied:
+- priniples of PID
+
+key takeaways:
+- A PID is a proportional integrative derivative controller that works by controlling an output to bring a process value to a setpoint
+- Set point: a user entered value
+- Process value: value that is being controlled
+- Output: the controlled value of a PID controller
+- Error: error value used to determine how to manipulate the output to bring the process value to the set point
+- P or Proportional: Used to have a large immediate reaction on the output; Error is smaller, influence of proportional value on output is less
+- D or Derivative: Used to predict where the process value is going; Bias the output in the opposite direction of proportional and integral
+- I or Integral: Doesn’t have as much immediate influence on output as proportional; continuously accumulating; Takes longer for process value to reach set point -> More effect integral will have on output
+
+Equations + concepts:
+- Error = setpoint - process value
+- kP = proportional gain, SP = set point, PV = process value, Err = Error, P = proportional
+- Err = SP - PV
+- P = kP x Err
+- I = Integral, kI = Integral Gain, dt = cycle time of the controller, It = integral total
+- I = kI x Err x dt
+- It = It + I
+- D = derivative, kD = derivative gain, dt = cycle time of controller, pErr = previous Error
+- D = kD x (Err - pErr) / dt
+- Output: P + It + D
+
+
+
+
+
 
 
 
