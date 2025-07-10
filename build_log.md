@@ -74,30 +74,17 @@ Equations + concepts:
 - Output: P + It + D
 
 Preliminary reaction wheel designs:
-- Design considerations:
---Keep the geometry simple 
-This will make it a lot easier to calculate the Inertia/center of mass
-Make sure that the design is symmetric
-Calculating the center of mass for a simple shape is much easier
-Ex: equilateral triangle, square, circle
-Only has one wheel:
-It can only be stabilized along one axis
-There can only be one degree of freedom
-Z-axis
-The y- and x-axis must be fixed
-Only focus on stabilization
-The reaction wheel should be made so that the block doesn’t fall over
-No rotational efforts:
-Shouldn’t work to the point that the item can self-rotate
-Too complex
-Cardboard or 3d:
-I can be more precise with the dimensions with 3D printing
-More precise dimensions = more accurate C.O.M
+- Design considerations: Keep the geometry simple; Make sure that the design is symmetric; Ex: equilateral triangle, square, circle;
+- Only has one wheel: can only be stabilized along one axis; can only be one degree of freedom
+- Z-axis: the y- and x-axis must be fixed
+- focus on stabilization
+- No rotational efforts:
+- Cardboard or 3d: more precise through 3D printing; More precise dimensions = more accurate C.O.M
 
 Brainstorming design ideas:
-Rectangular prism that balances on one edge
-Triangular prism that balances on one edge
-Cylinder balancing on two beams stabilising y- and x- axis
+- Rectangular prism that balances on one edge
+- Triangular prism that balances on one edge
+- Cylinder balancing on two beams stabilising y- and x- axis
 
 
 
