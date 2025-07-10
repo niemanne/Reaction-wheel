@@ -63,12 +63,15 @@ key takeaways:
 
 Equations + concepts:
 - \[Error = setpoint - process value\]
+
 kP = proportional gain, SP = set point, PV = process value, Err = Error, P = proportional
 - \[Err = SP - PV\]
 - \[P = kP x Err\]
+
 I = Integral, kI = Integral Gain, dt = cycle time of the controller, It = integral total
 - \[I = kI x Err x dt\]
 - \[It = It + I\]
+
 D = derivative, kD = derivative gain, dt = cycle time of controller, pErr = previous Error
 - \[D = kD x (Err - pErr) / dt\]
 - Output:
