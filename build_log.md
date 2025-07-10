@@ -83,13 +83,18 @@ D = derivative, kD = derivative gain, dt = cycle time of controller, pErr = prev
 Design considerations: 
 - Keep the geometry simple
 - Make sure that the design is symmetric
-- Ex: equilateral triangle, square, circle;
+- Ex: equilateral triangle, square, circle
+
 Only has one wheel:
 - can only be stabilized along one axis
 - can only be one degree of freedom
+
 Z-axis: the y- and x-axis must be fixed
+
 focus on stabilization
+
 No rotational efforts:
+
 Cardboard or 3d:
 - more precise through 3D printing
 - More precise dimensions = more accurate C.O.M
