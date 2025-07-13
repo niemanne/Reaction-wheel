@@ -146,7 +146,7 @@ The ranking:
 | Component Fit/Layout     | 3                | 5 (15)                | 3 (9)                | 4 (12)                |
 | Weight Distribution      | 4                | 4 (16)                | 3 (12)               | 4 (16)                |
 | Aesthetic Appeal         | 2                | 3 (6)                 | 2 (4)                | 5 (10)                |
-| **Total Weighted Score** |                  | **78**                |                      |                       |
+| **Total Weighted Score** |                  | **78**                |  **57**                   | **64**                      |
 
 
 
