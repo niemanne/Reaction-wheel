@@ -106,6 +106,9 @@ Cardboard or 3d:
 ### What was done:
 - updated parts list
 - found amazon links for necessary parts that are still needed
+- created a parts list on Git (docs/parts_list.md)
+- made a decision matrix comparing the 3 initial designs
+- chose to use the rectangular prism frame based on a set of 5 criteria
 
 ### Updated Parts list:
 What I have:
@@ -120,6 +123,31 @@ What I need:
 - 2S LiPo battery (Power)
 - Flywheel (3D printed)
 - Frame (3D printed)
+
+***Decision Matrix Results and Output***
+The design I am going to be pursing is the rectangular prism design based on its ease of manufacturing, especially with my limited supplies, its structural soundness, and the ability to fit components. The cylinder with two beams was a close second, but ultimately was not chosen because it required higher manufacturing skills needed for it to work. 
+
+Criteria:
+- Ease of construction
+- balance stability
+- component fit
+- center of mass control
+- aesthetics
+
+The ranking:
+- Rectangular Prism (84 points)
+- Cylinder on balance beams (74 points)
+- Triangular Prism (61)
+
+| **Criteria**             | **Weight (1–5)** | **Rectangular Prism** | **Triangular Prism** | **Cylinder on Beams** |
+| ------------------------ | ---------------- | --------------------- | -------------------- | --------------------- |
+| Ease of Manufacturing    | 5                | 5 (25)                | 4 (20)               | 2 (10)                |
+| Structural Stability     | 4                | 4 (16)                | 3 (12)               | 4 (16)                |
+| Component Fit/Layout     | 3                | 5 (15)                | 3 (9)                | 4 (12)                |
+| Weight Distribution      | 4                | 4 (16)                | 3 (12)               | 4 (16)                |
+| Aesthetic Appeal         | 2                | 3 (6)                 | 2 (4)                | 5 (10)                |
+| **Total Weighted Score** |                  | **78**                |                      |                       |
+
 
 
 
