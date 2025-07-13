@@ -23,3 +23,7 @@ Week 4: Implement attitude control algorithm (PID control)
 Week 5: Tune system + make demo videos
 
 Week 6: Polish, document, review
+
+## Project Documentation
+- [Parts List](docs/parts_list.md)
+- [Build Log](build_log.md)
