@@ -47,6 +47,8 @@ Three possible design layouts were brainstormed (see `hardware/initial_sketch_7-
 ### What was done:
 - researched principles of PID
 - made a document describing the thought process behind preliminary reaction wheel designs
+- made a documet describing all the parts I have
+- asked questions about what parts are still needed
 
 ### Topics studied:
 - core priniples + equations of PID (proportional-integral-derivative) controller
@@ -99,6 +101,26 @@ Cardboard or 3d:
 - Rectangular prism that balances on one edge
 - Triangular prism that balances on one edge
 - Cylinder balancing on two beams stabilising y- and x- axis
+
+## 7/13/2025 - finalize design + parts
+### What was done:
+- updated parts list
+- found amazon links for necessary parts that are still needed
+
+### Updated Parts list:
+What I have:
+- Arduino Uno (brain)
+- brainstorming (breadboard/ jumperwires)
+- basic DC motor (good for testing)
+
+What I need:
+- MPU-6050 (sensor)
+- DC motor-12V (motor)
+- Driver (L298N)
+- 2S LiPo battery (Power)
+- Flywheel (3D printed)
+- Frame (3D printed)
+
 
 
 
