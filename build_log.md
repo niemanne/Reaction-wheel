@@ -125,7 +125,12 @@ What I need:
 - Frame (3D printed)
 
 ***Decision Matrix Results and Output***
-The design I am going to be pursing is the rectangular prism design based on its ease of manufacturing, especially with my limited supplies, its structural soundness, and the ability to fit components. The cylinder with two beams was a close second, but ultimately was not chosen because it required higher manufacturing skills needed for it to work. 
+
+The design I am going to be pursing is the **rectangular prism** design based on its ease of manufacturing, especially with my limited supplies, its structural soundness, and the ability to fit electronic components. 
+
+The **cylinder with two beams** was a close second, but ultimately was not chosen because it required higher manufacturing skills to build accurately.
+
+The **triangular prism** ranked the lowest due to its limited ability to fit the electronic compoents and balance concerns.
 
 Criteria:
 - Ease of construction
@@ -134,10 +139,6 @@ Criteria:
 - center of mass control
 - aesthetics
 
-The ranking:
-- Rectangular Prism (84 points)
-- Cylinder on balance beams (74 points)
-- Triangular Prism (61)
 
 | **Criteria**             | **Weight (1–5)** | **Rectangular Prism** | **Triangular Prism** | **Cylinder on Beams** |
 | ------------------------ | ---------------- | --------------------- | -------------------- | --------------------- |
@@ -148,7 +149,10 @@ The ranking:
 | Aesthetic Appeal         | 2                | 3 (6)                 | 2 (4)                | 5 (10)                |
 | **Total Weighted Score** |                  | **78**                |  **57**                   | **64**                      |
 
-
+The ranking:
+- Rectangular Prism (84 points)
+- Cylinder on balance beams (74 points)
+- Triangular Prism (61)
 
 
 
