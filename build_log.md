@@ -154,8 +154,11 @@ The ranking:
 - Cylinder on balance beams (74 points)
 - Triangular Prism (61)
 
+## 7/13/2025 - Edit final Design + test electronics
 
-
+### What was done:
+- looked at the specs of every electronic and how they interacted with eachother
+- Made an electronics summary folder (docs/electronics_summary.md)
 
 
 
