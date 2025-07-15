@@ -159,6 +159,7 @@ The ranking:
 ### What was done:
 - looked at the specs of every electronic and how they interacted with eachother
 - Made an electronics summary folder (docs/electronics_summary.md)
+- redrew electronic layout, considering the dimensions of each electronic as well as space needed for wiring
 
 
 
