@@ -1,0 +1,12 @@
+
+| Role   | Part          | Description | Key Specs | Purchase Link |
+|--------|---------------|-------------|-----------|----------------|
+| **Brain** | Arduino Uno | A microcontroller board that is used for basic programming features and is programmed using the Arduino IDE, which supports the C/C++ language. | Voltage: 5V<br>Input Volt: 7–12V<br>Clock: 16 MHz<br>Memory: 32KB Flash | N/A |
+| **Sensor** | MPU-6050 | 3-axis accelerometer and 3-axis gyroscope MEMS module for measuring angular velocity and motion | Angular Range: ±250°–2000°/s<br>Power: 3–5V<br>Protocol: I²C | [MPU-6050 on Amazon](https://www.amazon.com/dp/B0876YZ4Y8) |
+| **Motor** | DC Motor (12V) | Produces continuous rotation via electromagnetic induction. Used to spin the flywheel. | Speed: 12000 RPM<br>Voltage: 12V<br>Diameter: 6.6 cm | [DC Motor on Amazon](https://www.amazon.com/dp/B01NBMP1U1) |
+| **Driver** | L298N | H-bridge motor driver that enables bi-directional control of a DC motor | Max Voltage: 46V<br>Current: 2A<br>Logic Level: 5V | [L298N on Amazon](https://www.amazon.com/dp/B089VPYGV4) |
+| **Power** | 2S LiPo Battery | Rechargeable high-output battery to power the system | Voltage: 7.4V<br>Capacity: 2000 mAh<br>Weight: 86g | [2S LiPo Battery on Amazon](https://www.amazon.com/dp/B0C69P8TZC) |
+
+
+## Why this setup?
+These electronics were chosen to match the needs of my single-axis reaction wheel rectangular prism focused on stabilizing along the z-axis. The components were chosen based on their simplicity, dimensions, and controllability while also allowing an ease of code transfer from breadboard prototyping with common Ardunio logic to higher level electronics that still follow the Ardunio language. 
