@@ -1,6 +1,6 @@
 # Reaction-wheel
 
-This is a personal aerospace engineering project to simulate ___ axis attitude control using a reaction wheel system. This project is built from scratch using Arduino, _________, and _____.
+This is a personal aerospace engineering project to simulate 1-axis attitude control using a reaction wheel system. This project is built from scratch using Arduino, NX, and circuit diagrams.
 
 ## Goals
 - Learn spacecraft attitude control concepts
