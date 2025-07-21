@@ -161,7 +161,8 @@ The ranking:
 - Made an electronics summary folder (docs/electronics_summary.md)
 - redrew electronic layout, considering the dimensions of each electronic as well as space needed for wiring
 
-## 7/15/2025 to 7/21/2025 - Early Hardware Integration and PID Loop Development
+# Week 2 - Early Hardware Integration and PID Loop Development
+## 7/15/2025 to 7/21/2025 
 
 ### What was done:
 - Created initial PID loop code and ran simulations to verify control logic  
@@ -181,7 +182,17 @@ The ranking:
 
 ### Key takeaways:  
 - PID controller must be tuned with real sensor feedback for accurate attitude control  
-- LEGO frame provides a quick and flexible method to proto
+- LEGO frame provides a quick and flexible method to protoprototype mechanical setup  
+- Independent testing of motor and IMU components helps identify issues before full integration  
+- Maintaining detailed build logs improves project organization and motivation  
+
+### Next steps planned:  
+- Build LEGO test frame and securely mount motor + flywheel  
+- Wire motor driver and IMU to Arduino and verify integrated operation  
+- Port PID loop code to hardware and begin iterative tuning with sensor input  
+- Document wiring and physical setup with photos for GitHub upload  
+- Conduct initial system testing focusing on stability and disturbance response  
+
 
 
 
