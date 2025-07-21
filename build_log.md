@@ -161,6 +161,29 @@ The ranking:
 - Made an electronics summary folder (docs/electronics_summary.md)
 - redrew electronic layout, considering the dimensions of each electronic as well as space needed for wiring
 
+## 7/15/2025 to 7/21/2025 - Early Hardware Integration and PID Loop Development
+
+### What was done:
+- Created initial PID loop code and ran simulations to verify control logic  
+- Ordered and received necessary hardware: motor, motor driver (L298N), IMU (MPU-6050), and flywheel  
+- Finalized preliminary electronics design, including wiring diagrams and component layout planning  
+- Decided to prototype physical frame using LEGO bricks for rapid iteration and easy adjustments  
+- Started basic motor tests via Arduino with PWM control to confirm motor functionality  
+- Ran example sketches on IMU and monitored sensor data through serial monitor to understand output behavior  
+- Updated GitHub repo structure; began drafting README and documentation (to be expanded)  
+
+### Topics studied:  
+- PID loop implementation on Arduino  
+- Motor driver interfacing and control via PWM and direction pins  
+- IMU calibration and filtering for stable sensor feedback  
+- Rapid prototyping methods for mechanical assembly (LEGO frame)  
+- Basic motor balancing and mounting considerations  
+
+### Key takeaways:  
+- PID controller must be tuned with real sensor feedback for accurate attitude control  
+- LEGO frame provides a quick and flexible method to proto
+
+
 
 
 
