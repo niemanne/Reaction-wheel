@@ -193,6 +193,12 @@ The ranking:
 - Document wiring and physical setup with photos for GitHub upload  
 - Conduct initial system testing focusing on stability and disturbance response  
 
+# Week 3 - Prototype Assembly and PID Hardware Integration
+
+## 7/21/2025 
+
+### What was done:
+
 
 
 
