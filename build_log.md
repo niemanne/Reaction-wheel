@@ -241,6 +241,15 @@ Ensure the motor is mounted securely to avoid wobble or misalignment.
 Run basic spin tests at low speeds, observe behavior (vibration, noise, smoothness).
 
 Note any issues and start thinking about how to troubleshoot or improve.
+Finalize frame requirements (dimensions, motor mounting points, sensor placement)
+
+Start CAD model of the frame (rectangular prism design)
+
+Make sure to leave space for wiring and components
+
+Export initial CAD drawings for review
+
+Backup/save your CAD files in organized folder
 
 
 
