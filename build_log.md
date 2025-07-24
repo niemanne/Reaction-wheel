@@ -1,5 +1,9 @@
 # Week 1 - Design and Plan
 ## 7/9/2025 - project begins
+
+### Summary
+To begin the project, research on reaction wheel systems was done, exploring how they operate and their usage. Also looked at previous designs for inspiration to lay down the foundations for the beginning of the project. Chose to use a one-axis based reaction wheel due to simplicity and time-restraints. 
+
 ### What was done:
 - set up folders (firmware/, hardware/, media/)
 - created build log
@@ -43,7 +47,13 @@
 Three possible design layouts were brainstormed (see `hardware/initial_sketch_7-9.jpg`). 
 - The leading candidate is a tripod style balance beam, which provides extra x/y axis support while isolating the z-axis for rotational testing and PID specialization
 
+### Notes:
+A one-axis design seemed the most reasonable option for the level of expertise currently aquired. No issues so far.
+
 ## 7/10/2025 - intial design 
+### Summary
+Initial designs were formulated and compared based on previous research. The principles of PID control, vital to reaction wheels, was also explored as a means to begin the software of the system. 
+
 ### What was done:
 - researched principles of PID
 - made a document describing the thought process behind preliminary reaction wheel designs
@@ -103,6 +113,9 @@ Cardboard or 3d:
 - Cylinder balancing on two beams stabilising y- and x- axis
 
 ## 7/13/2025 - finalize design + parts
+### Summary:
+Researched and ordered the components necessary for the wheel, including the MPU 6050, a motor driver, and a higher functioning motor. The rectangular prism frame was chosen after evaluation using a design matrix. 
+
 ### What was done:
 - updated parts list
 - found amazon links for necessary parts that are still needed
@@ -154,7 +167,9 @@ The ranking:
 - Cylinder on balance beams (74 points)
 - Triangular Prism (61)
 
-## 7/13/2025 - Edit final Design + test electronics
+## 7/14/2025 - Edit final Design + test electronics
+### Summary:
+Took time to understand how each of the electronic components worked together and began formulating the plan to wire those components. 
 
 ### What was done:
 - looked at the specs of every electronic and how they interacted with eachother
@@ -209,10 +224,23 @@ Began integrating core hardware components into a temporary test rig made out of
     - placed on the shaft of the motor
     - designed to simulate inertial load for initial test spinning
 
+### Topics Studied
+- prototyping techniques with LEDOs
+- motor shaft alignment considerations
+
 ### Notes:
 This initial prototyping emphasized conveinence - parts were limited so the test rig was created using household items and LEGO components. While a temporary measure, this step allows early testing and software management before commiting to a final flywheel desing.
 
 A picture of the test rig has been added in '/media/' for documentation. 
+
+## 7/24/2025 - initial testing
+Double-check the flywheel is properly balanced and attached firmly to the motor shaft.
+
+Ensure the motor is mounted securely to avoid wobble or misalignment.
+
+Run basic spin tests at low speeds, observe behavior (vibration, noise, smoothness).
+
+Note any issues and start thinking about how to troubleshoot or improve.
 
 
 
