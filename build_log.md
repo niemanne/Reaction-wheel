@@ -195,10 +195,24 @@ The ranking:
 
 # Week 3 - Prototype Assembly and PID Hardware Integration
 
-## 7/21/2025 
+## 7/22/2025 
+
+### Summary:
+Began integrating core hardware components into a temporary test rig made out of LEGOs in order to validatemotor function and system layout before finalizing the flywheel design. This mark the transition from designing/ planning into initial system prototyping.
 
 ### What was done:
+- constructed a LEGO-based testing rig to mount the DC motor and other electronic hardware
+   - Frame includes 2 vertical towers supporting the DC motor as well as the flywheel
+   - the Baseplate holds the Arduino Uno, motor driver, and the MPU-6050 to be held securely
+ - the motor was offset in the testing rig, to exposes its 12 mm long shaft for flywheel attachment
+ - created a temporary flywheel outof cardboard, electric tape, and some bolts
+    - placed on the shaft of the motor
+    - designed to simulate inertial load for initial test spinning
 
+### Notes:
+This initial prototyping emphasized conveinence - parts were limited so the test rig was created using household items and LEGO components. While a temporary measure, this step allows early testing and software management before commiting to a final flywheel desing.
+
+A picture of the test rig has been added in '/media/' for documentation. 
 
 
 
