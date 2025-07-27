@@ -251,6 +251,31 @@ Export initial CAD drawings for review
 
 Backup/save your CAD files in organized folder
 
+## 7/26/2025 - Frame CAD V2 + Electronics Ready for testing
+### What was done:
+- created CAD V2 of the rectangular prism frame design using Autodesk Inventor
+- Final dimensions: 100mm x 70mm x 70mm
+- integrated circular mount for motor with a 26.2mm diameter to account for precision fitting
+- ensured structural support and alignment for flywheel mounting
+- exported front, top, and isometric views as technical drawing (see _________________-)
+- designed and simulated breadboard circuit for Arduino Uno, L298N motor driver, and MPU6050
+- verified correct PWM-capable pin (D9) for ENA on L298N
+- Wired LiPo battery directly to L298N power input
+- Ensured shared ground across LiPo, L298N, Arduino, and IMU
+- Checuked IMU I^2C wiring (SDA -> A4, SCL -> A5)
+
+### Electronic Status:
+- Power: 2S LiPo for motor driver
+- Arduino powered vis USB during testing
+- IMU receives 5V and shares ground with Arduino
+- Common ground used across all subsystems
+- components ready for indiviudal tests
+
+### Key learnings: 
+- PWM output must use digital pins with PWM support - analog pins are input only
+- LiPo battery must power the motor through L298N, not Arduino for optimal efficiency
+- All GNDs must be tied together to maintain voltage reference
+- mounting and alignement tolerances for motor require careful measurement in CAD
 
 
 
