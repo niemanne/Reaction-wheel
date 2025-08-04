@@ -278,6 +278,55 @@ Backup/save your CAD files in organized folder
 - mounting and alignement tolerances for motor require careful measurement in CAD
 
 
+## 8/3/2025 - Printing begins, MPU6050 test successful
+
+### Summary  
+Kicked off the build with printing, soldering, and initial sensor testing. Resolved a filament feed issue on the Ender 3 Pro and began printing the first structural component. Soldered the MPU6050 header pins and verified successful I2C communication and data output using the Arduino IDE. Wiring diagram was finalized and partial circuit wiring has begun.
+
+### What was done:
+- Learned how to use a 3D printer (Ender 3 Pro): setup, leveling, slicing, filament loading
+- Learned how to solder: used soldering iron to attach right-angle headers to MPU6050
+- Sliced and started printing the first major structural part
+- Fixed PLA+ filament issue (adjusted extruder tension and Z-offset)
+- Wired MPU6050 to Arduino and tested communication
+- Confirmed live IMU data via Serial Monitor using `getMotion6()`
+- Analyzed accelerometer + gyro readings for consistency at rest
+- Completed full system wiring diagram (Arduino + MPU6050 + L298N + motor + battery)
+- Started physical wiring for L298N and motor
+
+### Topics Studied:
+- Raw I2C data retrieval using MPU6050 library
+- PLA+ behavior during extrusion and first layer adhesion
+- Soldering technique and pin alignment
+- Accelerometer vector interpretation from raw data
+
+### Key Takeaways:
+- Learned and applied basic 3D printing skills — slicing, calibration, extrusion troubleshooting
+- Learned how to solder and confirmed strong electrical/mechanical connections
+- Raw acceleration should reflect gravity across all axes (~16,000 magnitude)
+- Manual filament extrusion worked even when automated extrusion failed — tension and feed angle matter
+- Total IMU output magnitude was close to expected 1g, but orientation still needs refining
+
+### Equations + Concepts:
+- Total acceleration magnitude:  
+  `sqrt(ax^2 + ay^2 + az^2) ≈ 1g`  
+- Raw accelerometer scale at ±2g:  
+  `1g ≈ 16384`
+
+### Design Considerations: 
+- Secure IMU mounting is necessary for meaningful calibration
+- Proper spacing and routing of wiring will be important when components are enclosed
+- Power delivery to L298N (battery vs USB) needs to be safe and consistent
+
+### Hardware updates:
+- First print nearing completion; second part started
+- Motor and sensor partially wired in preparation for full control test
+- Wiring layout aligns with finalized schematic
+
+### Notes:
+Successful and productive first hands-on build day. Learned 3D printing and soldering from scratch. Ready to focus on calibration and IMU filtering next.
+
+
 
 
 
