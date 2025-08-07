@@ -326,54 +326,52 @@ Kicked off the build with printing, soldering, and initial sensor testing. Resol
 ### Notes:
 Successful and productive first hands-on build day. Learned 3D printing and soldering from scratch. Ready to focus on calibration and IMU filtering next.
 
-## 📅 8/4–8/6/2025 – Print Setbacks, Rig Redesign, and Accelerated Recovery
+## 📅 8/4–8/6/2025 – Print Setbacks, Wiring Completion, and Frame Redesign
 
 ### Summary  
-Spent the past few days navigating unexpected 3D printing failures and rethinking the physical design. The initial frame design failed twice due to shaft misalignment and warping, prompting a shift toward alternative frame solutions. Ultimately, pivoted to a more compact and faster-to-print 3D model. Print settings were optimized to drastically reduce print time. Manual prototyping (with LEGO) was used in the meantime to stabilize the system and maintain progress on the control loop.  
+The last few days were focused on advancing the full hardware integration and overcoming mechanical setbacks with the frame. The original 3D printed design failed to securely hold the motor, even after sanding the hole to widen it. The structural integrity degraded further during modification and ultimately broke. Meanwhile, wiring was fully completed and organized, and all electronics were mounted to a temporary board for stability. A new, cleaner frame design was created and reprinting began on 8/7 using updated slicing parameters for speed and accuracy.
 
 ### What was done:
-- Attempted two full prints of the original 3D frame design  
-  - First print: shaft hole fit too loose (2.5mm hole for 2.3mm shaft)  
-  - Second print: warping and structural issues due to part size  
-- Analyzed failure points: filament tension, hole tolerances, adhesion  
-- Designed a **smaller and skinnier version** of the frame to print faster  
-- Modified Cura slicing settings to reduce estimated print time  
-  - Lowered infill %  
-  - Adjusted layer height and shell thickness  
-- Began printing the revised model with updated settings  
-- Used LEGO bricks to construct an interim motor + MPU6050 test rig  
-- Ensured perpendicular mounting of MPU relative to motor shaft  
-- Continued PID code testing and logic refinement during hardware delays  
+- Completed full physical wiring of all components (MPU6050, motor, L298N, Arduino, power)  
+- Organized and bundled wires using electrical tape for a cleaner setup  
+- Mounted all electronic components to a board using Velcro for easy access and modularity  
+- Verified MPU6050 functionality — live data was reactive and consistent  
+- Attempted to fit motor into 3D printed frame by sanding the shaft hole  
+  - Hole widening failed due to alignment issues and plastic deformation  
+  - Frame structure broke during handling and was scrapped  
+- Edited the original Fusion 360 design to create a smaller, more efficient version  
+- Sliced new design with modified settings (lower infill, thinner walls) to reduce print time  
+- Started reprinting the revised enclosure on 8/7
 
 ### Topics Studied:
-- Tolerance and fit for motor shaft and printed parts  
-- PLA print failure mitigation (adhesion, Z-offset, print time)  
-- Lightweight structural design for inertia-based systems  
-- Trade-offs between infill pattern, strength, and time efficiency  
-- PID loop tuning strategy ahead of live system integration  
+- Wire management for modular robotics builds  
+- Practical fit tolerances for PLA parts under stress  
+- Mechanical limits of PLA+ when modifying post-print  
+- Mounting techniques using Velcro for non-permanent fixes  
+- Frame design iteration in Fusion 360 under time pressure  
 
 ### Key Takeaways:
-- Dimensional accuracy is critical for rotating components  
-- Adjusting infill and layer height drastically affects print duration  
-- Temporary test rigs (LEGO) help keep momentum during hardware setbacks  
-- Rebuilding the physical frame doesn't mean abandoning control development  
-- Need to consider print orientation and support settings for cleaner results  
+- Sanding PLA can introduce warping and structural failure if overdone  
+- Wrapping and routing wires early helps reduce clutter and test errors later  
+- Velcro is effective for prototyping: allows reconfiguration without glue  
+- Mounting MPU securely is essential for clean sensor data  
+- Redesigning a 3D model is faster than attempting to “fix” a broken one  
 
 ### Design Considerations:
-- New frame must fit motor securely and accommodate wire routing  
-- MPU6050 must be tightly fixed to avoid false acceleration/gyro data  
-- System symmetry and mass distribution remain important for clean PID response  
-- Mounting orientation should match final control assumptions  
+- Ensure precise hole tolerances for motor shaft fit — avoid post-processing if possible  
+- New frame should be compact, fast to print, and easily adjustable  
+- Space all components to allow airflow and avoid wire overlap  
+- Mounting surface should remain flat to preserve MPU orientation  
 
 ### Hardware Updates:
-- Abandoned initial frame after two failed prints  
-- Rebuilt frame design with slimmer dimensions for faster fabrication  
-- Updated Cura settings and started printing the new model  
-- Interim LEGO rig used to test wiring and motion feedback loop  
+- All components now fully wired and mounted to board  
+- Initial frame discarded due to fit and fracture issues  
+- New frame design completed and printing resumed with improved settings  
 
 ### Next Steps:
-- Complete printing and assemble revised 3D frame  
-- Transfer components from LEGO rig to new structure  
-- Run live PID loop using MPU6050 and motor inside new frame  
-- Begin tuning for stability and precision  
-- Record video demos + finalize GitHub code and documentation  
+- Assemble components into newly printed frame  
+- Transfer Velcro-mounted hardware to internal slots  
+- Begin full-system PID testing with secured MPU and flywheel  
+- Record behavior under various gain settings  
+- Finalize documentation, wiring diagram, and demo footage
+
