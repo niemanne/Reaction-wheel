@@ -326,8 +326,54 @@ Kicked off the build with printing, soldering, and initial sensor testing. Resol
 ### Notes:
 Successful and productive first hands-on build day. Learned 3D printing and soldering from scratch. Ready to focus on calibration and IMU filtering next.
 
+## 📅 8/4–8/6/2025 – Print Setbacks, Rig Redesign, and Accelerated Recovery
 
+### Summary  
+Spent the past few days navigating unexpected 3D printing failures and rethinking the physical design. The initial frame design failed twice due to shaft misalignment and warping, prompting a shift toward alternative frame solutions. Ultimately, pivoted to a more compact and faster-to-print 3D model. Print settings were optimized to drastically reduce print time. Manual prototyping (with LEGO) was used in the meantime to stabilize the system and maintain progress on the control loop.  
 
+### What was done:
+- Attempted two full prints of the original 3D frame design  
+  - First print: shaft hole fit too loose (2.5mm hole for 2.3mm shaft)  
+  - Second print: warping and structural issues due to part size  
+- Analyzed failure points: filament tension, hole tolerances, adhesion  
+- Designed a **smaller and skinnier version** of the frame to print faster  
+- Modified Cura slicing settings to reduce estimated print time  
+  - Lowered infill %  
+  - Adjusted layer height and shell thickness  
+- Began printing the revised model with updated settings  
+- Used LEGO bricks to construct an interim motor + MPU6050 test rig  
+- Ensured perpendicular mounting of MPU relative to motor shaft  
+- Continued PID code testing and logic refinement during hardware delays  
 
+### Topics Studied:
+- Tolerance and fit for motor shaft and printed parts  
+- PLA print failure mitigation (adhesion, Z-offset, print time)  
+- Lightweight structural design for inertia-based systems  
+- Trade-offs between infill pattern, strength, and time efficiency  
+- PID loop tuning strategy ahead of live system integration  
 
+### Key Takeaways:
+- Dimensional accuracy is critical for rotating components  
+- Adjusting infill and layer height drastically affects print duration  
+- Temporary test rigs (LEGO) help keep momentum during hardware setbacks  
+- Rebuilding the physical frame doesn't mean abandoning control development  
+- Need to consider print orientation and support settings for cleaner results  
 
+### Design Considerations:
+- New frame must fit motor securely and accommodate wire routing  
+- MPU6050 must be tightly fixed to avoid false acceleration/gyro data  
+- System symmetry and mass distribution remain important for clean PID response  
+- Mounting orientation should match final control assumptions  
+
+### Hardware Updates:
+- Abandoned initial frame after two failed prints  
+- Rebuilt frame design with slimmer dimensions for faster fabrication  
+- Updated Cura settings and started printing the new model  
+- Interim LEGO rig used to test wiring and motion feedback loop  
+
+### Next Steps:
+- Complete printing and assemble revised 3D frame  
+- Transfer components from LEGO rig to new structure  
+- Run live PID loop using MPU6050 and motor inside new frame  
+- Begin tuning for stability and precision  
+- Record video demos + finalize GitHub code and documentation  
